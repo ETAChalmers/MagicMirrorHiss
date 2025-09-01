@@ -1,6 +1,8 @@
 # MagicMirrorHiss
 Magic mirror för comfy feel i hissen
 
+Make sure node is installed
+
 After pulling do
 
 ``
