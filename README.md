@@ -7,7 +7,7 @@ Idea is to create spoofs of loading screens, and display them in the elevator as
 
 Make sure node is installed
 
-After pulling do
+After cloning do
 
 ``
 node --run install-mm
