@@ -12,6 +12,7 @@ spacing = 3
 maxBlocks = 19
 
 def tupleAdd(t1, t2):
+    
     return tuple(map(sum, zip(t1, t2)))
 
 def drawLoadingBar(blockCount, target):
@@ -27,9 +28,11 @@ def drawLoadingBar(blockCount, target):
         cv2.rectangle(target, loadingBlockPosition, loadingBlockEnd, (255, 255, 255), -1)
      
 def show():
+    
     frameCount = 0   
             
     while(capture.isOpened()):
+        
         #frameFound bool that is true if we have a valid frame
         frameFound, frame = capture.read() 
         
