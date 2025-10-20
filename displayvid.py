@@ -42,8 +42,6 @@ def show():
         if frameFound:
             frameCount += 1
             
-            drawLoadingBar(round(frameCount/10), frame)
-            
             cv2.imshow("Image", frame)
             
             #Is this needed?
@@ -65,3 +63,4 @@ def show():
 show()
 capture.release()
 cv2.destroyAllWindows()
+
